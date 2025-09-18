@@ -1,0 +1,6 @@
+We started off with a discussion of the runtime error `EOFError: EOF when reading a line` that you might encounter in the zyBooks textbook editor in either **Submit mode**. 
+
+If your code works in interactive mode (i.e., writing and testing it) but you're receiving this error in **Submit mode**, then you're providing the correct number of inputs in your program during interactive runs, but the actual program specifications are for fewer inputs.  For instance, your program might be set up for three `input()` statements, but the program is only expecting two, so when you submit your code via **Submit mode**, you'll receive the `EOFError` because zyBooks will only ever provide two pieces of input even though your program is expecting three.
+
+If this is the case, go back to the code specifications and/or watch the associated video (if it's an MSP) and try to determine what the input should be for the program.
+
